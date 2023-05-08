@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <footer class="bg-gray-200">
+    <!-- gapはpaddingみたいなもの、item同士の間を開ける -->
+    <div class="p-8 grid grid-cols-4 gap-8">
+      <div>
+        <p class="mb-8">ロゴ</p>
+        <address>〒123-4567 東京都千代田区〇〇</address>
+      </div>
+      <div>
+        <div class="mb-8">最新の記事</div>
+        <ul>
+          <li>記事１</li>
+          <li>記事２</li>
+          <li>記事3</li>
+        </ul>
+      </div>
+      <div>
+        <div class="mb-8">カテゴリ</div>
+        <ul>
+          <li>カテゴリ１</li>
+          <li>カテゴリ２</li>
+          <li>カテゴリ3</li>
+        </ul>
+      </div>
+      <div>
+        <div class="mb-8">人気の記事</div>
+        <ul>
+          <li>人気の記事１</li>
+          <li>人気の記事２</li>
+          <li>人気の記事3</li>
+        </ul>
+      </div>
+      <!-- justify-self-centerは真ん中寄せ -->
+      <div class="col-span-4 justify-self-center">
+        Copyright all rights reserved
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
